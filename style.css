@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    padding: 50px;
+}
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    display: inline-block;
+}
+h1 {
+    color: #333;
+}
+.btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.firebase {
+    background-color: #d135e6;
+}
+.github {
+    background-color: #000000;
+}
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.column {
+    width: 45%;
+}
